@@ -1,0 +1,13 @@
+rootProject.name = 'idea-module-issue-reproducer'
+
+include(':app1:module1')
+project(':app1:module1').name='app1-module1'
+
+include(':app1:module2')
+project(':app1:module2').name='app1-module2'
+
+include(':app2:module1')
+project(':app2:module1').name='app2-module1'
+
+include(':app2:module2')
+project(':app2:module2').name='app2-module2'
